@@ -22,8 +22,6 @@ The goal is to explore how trade data and exchange rates interact and to build p
 
 ## Dataset
 
-## Dataset
-
 ### Trade Data
 
 The global import–export trade datasets used in this project were obtained from **Kaggle**.
