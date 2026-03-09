@@ -43,8 +43,6 @@ Files used in this project:
 * `2010_2021_HS2_export.csv`
 * `2010_2021_HS2_import.csv`
 
----
-
 ### Exchange Rate Data
 
 USD–INR exchange rate data was obtained using the **Yahoo Finance API** via the `yfinance` Python library.
