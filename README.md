@@ -22,20 +22,40 @@ The goal is to explore how trade data and exchange rates interact and to build p
 
 ## Dataset
 
+## Dataset
+
 ### Trade Data
 
-* **Dataset:** HS2 Global Import-Export Data (2010–2021)
-* **Attributes include:**
+The global import–export trade datasets used in this project were obtained from **Kaggle**.
 
-  * Country
-  * Year
-  * Export value (USD)
-  * Import value (USD)
+These datasets contain historical trade values between countries categorized by HS2 product codes for the period **2010–2021**.
+
+Attributes include:
+
+* Country
+* Year
+* Export value (USD)
+* Import value (USD)
+
+Kaggle Dataset Source:
+https://www.kaggle.com/
+
+Files used in this project:
+
+* `2010_2021_HS2_export.csv`
+* `2010_2021_HS2_import.csv`
+
+---
 
 ### Exchange Rate Data
 
-* **Dataset:** USD/INR exchange rate
-* Source: Yahoo Finance (via `yfinance`)
+USD–INR exchange rate data was obtained using the **Yahoo Finance API** via the `yfinance` Python library.
+
+The dataset contains historical daily exchange rate values which were later aggregated for forecasting models.
+
+File used:
+
+* `USD_INR_Exchange.csv`
 
 ---
 
